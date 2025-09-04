@@ -13,7 +13,7 @@ const Home = () => {
       icon: Rocket,
       title: "Innovation First",
       description: "We leverage cutting-edge technology to deliver solutions that push the boundaries of what's possible in the digital space.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile12345674tr4rfededcexexexexexexexexephone.png",
     },
     {
       icon: Users,
