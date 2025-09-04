@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import FeatureCard from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-home.jpg";
-import feature1Image from "@/assets/feature-11.jpg";
+import feature1Image from "@/assets/feature-1.jpg";
 import feature2Image from "@/assets/feature-2.jpg";
 import feature3Image from "@/assets/feature-3.jpg";
 
@@ -13,7 +13,7 @@ const Home = () => {
       icon: Rocket,
       title: "Innovation First",
       description: "We leverage cutting-edge technology to deliver solutions that push the boundaries of what's possible in the digital space.",
-      image: feature1Image,
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
     },
     {
       icon: Users,
