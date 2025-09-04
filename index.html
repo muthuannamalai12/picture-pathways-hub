@@ -16,7 +16,15 @@
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     <script type="text/javascript">
-      ;window.NREUM||(NREUM={});NREUM.init={session_replay:{enabled:true,block_selector:'',mask_text_selector:'*',sampling_rate:10.0,error_sampling_rate:100.0,mask_all_inputs:true,collect_fonts:true,inline_images:false,inline_stylesheet:true,fix_stylesheets:true,preload:false,mask_input_options:{}},distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};
+      ;window.NREUM||(NREUM={});NREUM.init={session_replay:{enabled:true,block_selector:'',mask_text_selector:'*',sampling_rate:10.0,error_sampling_rate:100.0,mask_all_inputs:true,collect_fonts:true,inline_images:false,inline_stylesheet:true,fix_stylesheets:true,preload:false,mask_input_options:{}},distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}, performance: {
+  capture_marks: true, 
+  capture_measures: true,
+  resources: {
+    enabled: true, // enable to capture browser peformance resource timings (default false)
+    asset_types: [], // Asset types to collect -- an empty array will collect all types (default []). See https://developer.mozilla.org/en-US/docs/Web/API/PerformanceResourceTiming/initiatorType for the list of types.
+    first_party_domains: [], // when included, will decorate any resource as a first party resource if matching (default [])
+    ignore_newrelic: true // ignore capturing internal agent scripts and harvest calls (default true)
+  }}};
       ;NREUM.loader_config={accountID:"1",trustKey:"1",agentID:"601581340",licenseKey:"NRBR-5276ec87a4a0c11f5fa",applicationID:"601581340"};
       ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"NRBR-5276ec87a4a0c11f5fa",applicationID:"601581340",sa:1};
        ;/*! For license information please see nr-loader-spa-1.296.0.min.js.LICENSE.txt */
